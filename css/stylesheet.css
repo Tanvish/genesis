@@ -115,7 +115,6 @@ h5{
 background-image: url('president.jpg');
 	background-size: cover;
 	background-image:center;
-	border:6px solid white;
 	border-radius: 50%;
 	color:transparent;
     -webkit-filter: grayscale(100%);

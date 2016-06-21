@@ -112,7 +112,7 @@ h5{
 	color:white;
 }
 }
-.t1{
+.t1:hover{
 background-image: url('president.jpg');
 	background-size: cover;
 	background-image:center;
@@ -121,9 +121,6 @@ background-image: url('president.jpg');
 	-webkit-transition:2s;
 	-moz-transition:2s;
 	-o-transition:2s;
-	
-}
-.t1:hover{
 	color:transparent;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);

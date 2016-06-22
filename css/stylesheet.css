@@ -1,12 +1,12 @@
 body{
 	width: 100%;
-	background-color: #4C4FF2;
+	background-color: #3498db;
 }
 .navbar{
- background-color: #4C4FF2;
- margin-left: -10px;
- margin-right: -10px;
+ background-color: #3498db;
  width:100%;
+margin-left:-8px;
+
 	position: fixed;
 	top:-15px;
 	z-index: 2;
@@ -18,13 +18,13 @@ body{
 	padding: 10px;
 	padding-bottom: 5px;
 	font-family:'Raleway', sans-serif;
-	border-bottom:solid 2px #4C4FF2;
+	border-bottom:solid 2px #3498db;
 	-webkit-transition:2s ;
 	-moz-transition:2s;
 	-o-transition:2s;
 	
 }
-.navbar a:hover{
+.navbar li:hover{
 	border-bottom:solid 2px black;
 	
 }
@@ -33,6 +33,7 @@ body{
 	margin-right: -10px;
 	width:100%;
 	background-image: url('home.jpg');
+ -webkit-filter:grayscale(0.5);
 	background-size: cover;
 	}
   
@@ -42,12 +43,14 @@ body{
 	font-family: 'Orbitron', verdana;
 	padding-top: 150px;
 	letter-spacing:5px;
+        font-size:4em;
 }
 .home p{
 	color:white;
-	font-family:'Raleway',sans-serif;
+	font-family:'Montserrat',sans-serif;
 	padding-top: 20px;
 	padding-bottom: 40px;
+        font-size:1.5em;
 }
 .home button{
 	border:5px solid white;
@@ -66,7 +69,7 @@ body{
 	-webkit-transition:1s;
 	-moz-transition:1s;
 	-o-transition:1s;
-	border:5px solid #6C2AFB;
+	border:5px solid #3498db;
 }
 h5{
 	padding-top: 100px;
@@ -89,72 +92,75 @@ h5{
 .team{
 	margin-right:7%;
 	margin-left:7%;
-	background-color: #580BFD;
+	background-color: #2980b9;
 }
 .team h1{
+        font-family:'Raleway',sans-serif;
 	padding-top: 100px;
+                
 }
 .teambutton{
 	padding:120px;
+        padding-top:160px;
 	font-family:'Raleway', verdana;
 	width:15%;
 	-webkit-transition:2s;
 	-moz-transition:2s;
 	-o-transition:2s;
 }
-.teambutton span{
+.txt2{
 	color: transparent;
 	-webkit-transition:2s;
 	-moz-transition:2s;
 	-o-transition:2s;
 }
-.teambutton:hover span{
+.teambutton:hover .txt2{
 	color:white;
 }
+
+.t1{
+    background-image:url('president.jpg');
+    background-size:cover;
+    border-radius:10%;
+    color:white;
+    font-weight:2px;
+}
 .t1:hover{
-background-image: url('president.jpg');
-	background-size: cover;
-	background-image:center;
-	border-radius: 50%;
-	color:transparent;
-    -webkit-filter: grayscale(100%);
+color:transparent;
+   border-radius: 50%;
+   -webkit-filter:grayscale(100%);
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
-    -webkit-transition:2s;
-    -o-transition:2s;
-    -moz-transition:2s;
+}
+.t2{
+    background-image:url('vicepresident.jpg');
+    background-size:cover;
+    border-radius:10%;
+    color:white;
+    font-weight:2px;
 }
 .t2:hover{
-	background-image: url('vicepresident.jpg');
-	background-image:center;
-	color:transparent;
-	-webkit-transition:2s;
-    background-repeat: no-repeat;
-     background-size: cover;
-     border-radius: 50%;
-     -webkit-filter: grayscale(100%);
+color:transparent;
+   border-radius: 50%;
+   -webkit-filter:grayscale(100%);
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
-    -webkit-transition:2s;
-    -o-transition:2s;
-    -moz-transition:2s;
-    }
-.t3:hover{
-	background-image: url('secretary.jpg');
-	background-size: cover;
-	color:transparent;
-       border-radius: 50%;
-     -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    -webkit-transition:2s;
-    -o-transition:2s;
-    -moz-transition:2s;
-    }
-
-.team h1{
-	font-family:'Raleway',verdana;
 }
+.t3{
+    background-image:url('secretary.jpg');
+    background-size:cover;
+    border-radius:10%;
+    color:white;
+    font-weight:2px;
+}
+.t3:hover{
+color:transparent;
+   border-radius: 50%;
+   -webkit-filter:grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
 b{
 	color: white;
 }
@@ -162,4 +168,3 @@ b{
 .team h2{
 	display: inline-block;
 	}
-

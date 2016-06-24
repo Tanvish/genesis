@@ -79,7 +79,18 @@
     <div class="content">Samanyu Mahajan</div>
     <div class="content">Dhruv Narang</div>
     </div>
-  </div>
+  </div><script>
+$(function() {
+  var slider = $('.container > div');
+  
+  $('.content').click(function() {
+    var left = -$(this).position().left;
+    left -= $(this).outerWidth() / 2;
+    left += $('.container').width() / 2;
+    
+    slider.css('left', left + 'px');
+  });
+});</script>
 
        </div></div>
 <div class = "achievements">

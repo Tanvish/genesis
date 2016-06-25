@@ -122,6 +122,8 @@
 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
  <div style='overflow:hidden;height:330px;width:500px;'>
      <div id='gmap_canvas' style='height:330px;width:500px;'>
+     	<script>
+	function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(28.6078176,77.04061469999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(28.6078176,77.04061469999999)});infowindow = new google.maps.InfoWindow({content:'<strong>Here we are!</strong><br>Delhi Public School, dwarka<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 	
 </div>
 

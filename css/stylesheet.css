@@ -87,11 +87,11 @@ h5{
 	font-family: 'Indie Flower', sans-serif;
 	margin-right: 20%;
 	margin-left:20%;
-	font-size: 1.5em;
+	font-size: 1.75em;
 }
 .team{
-	margin-right:7%;
-	margin-left:7%;
+	margin-right:10%;
+	margin-left:10%;
 	background-color: #2980b9;
 }
 .main_heading{
@@ -100,16 +100,22 @@ h5{
         
                 
 }
+.j{
+	color:transparent;
+}
 .teambutton{
-	padding:120px;
-        padding-top:160px;
+	
 	font-family:'Raleway', verdana;
 	width:15%;
+	font-size-adjust:0.58;
+	overflow:hidden;
 	-webkit-transition:2s;
 	-moz-transition:2s;
 	-o-transition:2s;
 }
+
 .txt2{
+
 	color: transparent;
 	-webkit-transition:2s;
 	-moz-transition:2s;
@@ -119,7 +125,7 @@ h5{
 	color:white;
 }
 
-.t1{
+.t1{padding:10%;
     background-image:url('president.jpg');
     background-size:cover;
     border-radius:10%;
@@ -134,6 +140,7 @@ color:transparent;
     -o-filter: grayscale(100%);
 }
 .t2{
+	padding:10%;
     background-image:url('vicepresident.jpg');
     background-size:cover;
     border-radius:10%;
@@ -147,7 +154,7 @@ color:transparent;
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
 }
-.t3{
+.t3{padding:10%;
     background-image:url('secretary.jpg');
     background-size:cover;
     border-radius:10%;
@@ -167,8 +174,11 @@ b{
 }
 
 .team h2{
+	
 	display: inline-block;
+
 	}
+
 .achiev_box{
         margin:3% 15% 3% 15%;
 	height: 500px;
@@ -206,14 +216,71 @@ font-family:'raleway',verdana;
 .content {
   background: #f39c12;
   display: inline-block;
-  padding: 6em;
+  padding: 4em;
   margin-right: 1em;
   text-align: center;
   font-family: 'orbitron',verdana;
-  box-shadow: 3px 3px 3px 3px #95a5a6;
+  font-size: 1.5em;
+  box-shadow: 3px 3px 3px 3px #7f8c8d;
 }
 .map{
 	display: inline-block;
 	float:right;
 	padding-right: 50px;
+}
+.hr{
+ border-width: 5px;
+ color:black;
+}
+.separate  {
+	margin-left: -5px;
+	width:100%;
+	background-color: #16a085;
+	position: relative;
+	margin-top: 200px;
+	margin-bottom: 100px;
+
+}
+
+.separate p{
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	font-family: 'Indie Flower',verdana;
+	color:white;
+	font-size:2em;
+	
+}
+blockquote{
+	font-family: 'orbitron',sans-serif;
+	font-size: 1.5em;
+	color: white;
+}
+.contact_us h1{
+	color: #ecf0f1;
+	font-family: 'raleway',verdana;
+	padding-bottom: 100px;
+
+}
+.con_txt{
+	color:white;
+	font-family: 'raleway', verdana;
+	padding-left: 50%;
+}
+table{
+	padding-left: 15%;
+}
+table,.map{
+	display: inline-block;
+
+}
+.footer{
+	margin-top: 100px;
+		height: 200px;
+	background-color:#2c3e50;
+}
+.foo_txt{
+	padding-top: 180px;
+	color:white;
+	font-family: 'raleway',verdana;
 }

@@ -1,15 +1,21 @@
 body{
 	width: 100%;
+	position: relative;
+	left:0px;
+
 	background-color: #3498db;
 }
+
 .navbar{
  background-color: #3498db;
  width:100%;
-margin-left:-8px;
-
+ left:0px;
 	position: fixed;
 	top:-15px;
-	z-index: 2;
+	z-index: 4;
+}
+ul{
+	padding-left: 0px;
 }
 .navbar li,a {
 	color:white;
@@ -29,9 +35,10 @@ margin-left:-8px;
 	
 }
 .home{
+
 	margin-left:-7px;
-	margin-right: -10px;
-	width:100%;
+	z-index:1;
+	max-width:100%px;
 	background-image: url('home.jpg');
  -webkit-filter:grayscale(0.5);
 	background-size: cover;
@@ -44,6 +51,8 @@ margin-left:-8px;
 	padding-top: 150px;
 	letter-spacing:5px;
         font-size:4em;
+        margin: 0 auto;
+
 }
 .home p{
 	color:white;
@@ -83,7 +92,7 @@ h5{
 }
 .about p{
 	padding-top:70px;
-    padding-bottom: 10px;
+    padding-bottom: 80px;
 	font-family: 'Indie Flower', sans-serif;
 	margin-right: 20%;
 	margin-left:20%;
@@ -128,7 +137,7 @@ h5{
 .t1{padding:10%;
     background-image:url('president.jpg');
     background-size:cover;
-    border-radius:10%;
+    border-radius:50%;
     color:white;
     font-weight:2px;
 }
@@ -143,7 +152,7 @@ color:transparent;
 	padding:10%;
     background-image:url('vicepresident.jpg');
     background-size:cover;
-    border-radius:10%;
+    border-radius:50%;
     color:white;
     font-weight:2px;
 }
@@ -157,7 +166,7 @@ color:transparent;
 .t3{padding:10%;
     background-image:url('secretary.jpg');
     background-size:cover;
-    border-radius:10%;
+    border-radius:50%;
     color:white;
     font-weight:2px;
 }
@@ -234,7 +243,7 @@ font-family:'raleway',verdana;
 }
 .separate  {
 	margin-left: -5px;
-	width:100%;
+	width:101%;
 	background-color: #16a085;
 	position: relative;
 	margin-top: 200px;
@@ -256,6 +265,11 @@ blockquote{
 	font-size: 1.5em;
 	color: white;
 }
+.contact_us {
+	position: relative;
+	bottom:240px;
+	
+}
 .contact_us h1{
 	color: #ecf0f1;
 	font-family: 'raleway',verdana;
@@ -275,12 +289,17 @@ table,.map{
 
 }
 .footer{
-	margin-top: 100px;
-		height: 200px;
+	position: fixed;
+	height: 40px;
 	background-color:#2c3e50;
+	left:0px;
+   bottom:0px;
+   width:100%;
+   margin-bottom: 0px;
+  
 }
 .foo_txt{
-	padding-top: 180px;
+	padding-top: 1px;
 	color:white;
 	font-family: 'raleway',verdana;
 }

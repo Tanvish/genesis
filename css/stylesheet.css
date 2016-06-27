@@ -106,7 +106,7 @@ h5{
 .teambutton{
 	
 	font-family:'Raleway', verdana;
-	width:15%;
+	max-width:200px;
 	font-size-adjust:0.58;
 	overflow:hidden;
 	-webkit-transition:2s;

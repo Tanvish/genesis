@@ -23,7 +23,7 @@ ul{
 	display: inline-block;
 	padding: 10px;
 	padding-bottom: 5px;
-	font-family:'Raleway', sans-serif;
+	font-family:'raleway', sans-serif;
 	border-bottom:solid 2px #3498db;
 	-webkit-transition:2s ;
 	-moz-transition:2s;
@@ -47,7 +47,7 @@ ul{
 
 .home h1{
 	color:white;
-	font-family: 'Orbitron', verdana;
+	font-family: 'raleway', verdana;
 	padding-top: 150px;
 	letter-spacing:5px;
         font-size:4em;
@@ -56,7 +56,7 @@ ul{
 }
 .home p{
 	color:white;
-	font-family:'Montserrat',sans-serif;
+	font-family:'raleway',sans-serif;
 	padding-top: 20px;
 	padding-bottom: 40px;
         font-size:1.5em;
@@ -64,7 +64,7 @@ ul{
 .home button{
 	border:5px solid white;
 	color:white;
-	font-family: 'Indie Flower',verdana;
+	font-family: 'raleway',verdana;
 	
 	
 	background-color: transparent;
@@ -86,14 +86,14 @@ h5{
 	color: black;
 }
 .about h1{
-	font-family: 'Raleway', verdana;
+	font-family: 'raleway', verdana;
 	padding-top: 100px;
 	font-size: 3em;
 }
 .about p{
 	padding-top:70px;
     padding-bottom: 80px;
-	font-family: 'Indie Flower', sans-serif;
+	font-family: 'raleway', sans-serif;
 	margin-right: 20%;
 	margin-left:20%;
 	font-size: 1.75em;
@@ -104,7 +104,7 @@ h5{
 	background-color: #2980b9;
 }
 .main_heading{
-        font-family:'Raleway',sans-serif;
+        font-family:'raleway',sans-serif;
 	padding-top: 100px;
         
                 
@@ -114,7 +114,7 @@ h5{
 }
 .teambutton{
 	
-	font-family:'Raleway', verdana;
+	font-family:'raleway', verdana;
 	max-width:200px;
 	font-size-adjust:0.58;
 	overflow:hidden;
@@ -140,10 +140,11 @@ h5{
     border-radius:50%;
     color:white;
     font-weight:2px;
+    padding-bottom: 200px;
 }
 .t1:hover{
 color:transparent;
-   border-radius: 50%;
+   border-radius: 0%;
    -webkit-filter:grayscale(100%);
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
@@ -158,7 +159,7 @@ color:transparent;
 }
 .t2:hover{
 color:transparent;
-   border-radius: 50%;
+   border-radius: 0%;
    -webkit-filter:grayscale(100%);
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
@@ -172,7 +173,7 @@ color:transparent;
 }
 .t3:hover{
 color:transparent;
-   border-radius: 50%;
+ border-radius: 0%;
    -webkit-filter:grayscale(100%);
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
@@ -255,7 +256,7 @@ font-family:'raleway',verdana;
   padding: 4em;
   margin-right: 1em;
   text-align: center;
-  font-family: 'orbitron',verdana;
+  font-family: 'raleway',verdana;
   font-size: 1.5em;
   box-shadow: 3px 3px 3px 3px #7f8c8d;
 }
@@ -281,13 +282,13 @@ font-family:'raleway',verdana;
 	position: relative;
 	padding-top: 60px;
 	padding-bottom: 40px;
-	font-family: 'Indie Flower',verdana;
+	font-family: 'raleway',verdana;
 	color:white;
 	font-size:2em;
 	
 }
 blockquote{
-	font-family: 'orbitron',sans-serif;
+	font-family: 'raleway',sans-serif;
 	font-size: 1.5em;
 	color: white;
 }

@@ -140,7 +140,7 @@ h5{
     border-radius:50%;
     color:white;
     font-weight:2px;
-    padding-bottom: 200px;
+   max-width:150px;
 }
 .t1:hover{
 color:transparent;

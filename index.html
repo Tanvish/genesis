@@ -1,0 +1,202 @@
+
+<!DOCtype html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=VT323|Montserrat|Open+Sans|Quicksand|Roboto|Work+Sans|Poiret+One|Righteous" rel="stylesheet">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="style.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.js"></script>
+
+</head>
+<body>
+  <header>
+    <logo><img src = "logo.png" height="50px" width="50px">
+    </logo>
+
+    <nav>
+      <a href = "#contact">CONTACT US</a>
+      <a href="#training">TRAINING</a>
+
+      <a href = "#team">TEAM</a>
+      <a href = "#main">HOME</a>
+    </nav>
+  </header>
+<section class = "main" id="main">
+
+   <h1>MASTERS<span class ="black">FC</span></h1>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+      et lobortis risus. Duis id dapibus ante. Aliquam fringilla odio
+      justo,elementum lectus bibendum, tincidunt velit.
+         Duis lacinia consequat lobortis. </p><br>
+   <a href = "training" class = "main_button"> KNOW MORE</a>
+   <p>.</p>
+
+</section>
+<div class = "main_2" align='center'>
+  <li class = "box box_3" >
+    <h1>News</h1>
+    <p>Vivamus in turpis augue. Morbi vel nisl feugiat, porttitor
+      ligula sed, finibus justo. Praesent vulputate sit amet mi et
+       tempus. Sed vel dolor faucibus.</p>
+   </li>
+   <li class = "box box_2">
+     <h1>News</h1>
+     <p>Vivamus in turpis augue. Morbi vel nisl feugiat, porttitor
+       ligula sed, finibus justo. Praesent vulputate sit amet mi et
+        tempus. Sed vel dolor faucibus.</p>
+    </li>
+    <li class = "box box_1">
+      <h1>News</h1>
+      <p>Vivamus in turpis augue. Morbi vel nisl feugiat, porttitor
+        ligula sed, finibus justo. Praesent vulputate sit amet mi et
+         tempus. Sed vel dolor faucibus.</p>
+     </li>
+</div>
+<div class = "question" id = "team">
+
+  <h1>MEET THE TEAM </h1>
+
+   <div id="slider">
+  <a class="control_next">></a>
+  <a class="control_prev"><</a>
+  <ul>
+    <li>Player 1</li>
+    <li style="background:url("");">Player 2</li>
+    <li>PLayer 3 3</li>
+    <li style="background: #aaa;">Player 4</li>
+  </ul>
+</div>
+
+
+  <br/><br/><br/><br/><br/>
+<br/><br/>
+
+</div>
+<div class = "about" id= "training">
+
+<div class = "containers" align = "center">
+<div class = "container1 one">
+  <img src="graphic1.png" height= "200px" width= "250px" >
+<div class="partone">
+  <h1> Lorem</h1>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+      et lobortis risus. Duis id dapibus ante. Aliquam fringilla odio
+      justo, ullamcorper gravida lectus ullamcorper et. In at elit leo.
+       Integer lacinia egestas sem</p>
+       </div>
+     </div>
+     <div class = "parttwo">
+   <div class = "container1 two">
+    <h1>lorem</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+         et lobortis risus. Duis id dapibus ante. Aliquam fringilla odio
+         justo, ullamcorper gravida lectus ullamcorper et. In at elit leo.
+         Integer lacinia egestas sem</p>
+</fiv>
+             <img src="graphic2.png" height= "200px" width= "250px" >
+  </div>
+  <div class = "container1 three">
+
+  <img src="graphic1.png" height= "200px" width= "250px" >
+<div class="partthree">
+    <h1>lorem</h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+        et lobortis risus. Duis id dapibus ante. Aliquam fringilla odio
+        justo, ullamcorper gravida lectus ullamcorper et. In at elit leo.
+        Integer lacinia egestas sem</p>
+</div>
+  </div>
+</div>
+  <section id="contact" align = "center">
+  <h1>Contact us</h1>
+  <p> Register With Us.</p>
+
+
+<div class="container">
+<form name="htmlform" method="post" action="post">
+<input type="text" name="first_name" placeholder="NAME" required>
+<input  type="email" name="email" placeholder="MAIL" required>
+<textarea name="comments" placeholder="MESSAGE" required ></textarea>
+<button name="send" type="submit" class="submit">SEND</button>
+
+</form>
+
+  </div>
+  </section>
+  <footer>
+ <p>&copy|mfc</p>
+  </footer>
+
+  <script>
+	jQuery(document).ready(function ($) {
+
+  $('#checkbox').change(function(){
+    setInterval(function () {
+        moveRight();
+    }, 3000);
+  });
+
+	var slideCount = $('#slider ul li').length;
+	var slideWidth = $('#slider ul li').width();
+	var slideHeight = $('#slider ul li').height();
+	var sliderUlWidth = slideCount * slideWidth;
+
+	$('#slider').css({ width: slideWidth, height: slideHeight });
+
+	$('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+
+    $('#slider ul li:last-child').prependTo('#slider ul');
+
+    function moveLeft() {
+        $('#slider ul').animate({
+            left: + slideWidth
+        }, 200, function () {
+            $('#slider ul li:last-child').prependTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    function moveRight() {
+        $('#slider ul').animate({
+            left: - slideWidth
+        }, 200, function () {
+            $('#slider ul li:first-child').appendTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    $('a.control_prev').click(function () {
+        moveLeft();
+    });
+
+    $('a.control_next').click(function () {
+        moveRight();
+    });
+
+});
+//for smoothscrolling
+document.addEventListener('DOMContentLoaded', function () {
+  particleground(document.getElementById('main'), {
+    dotColor: '#0DE3D6',
+    lineColor: '#0DE3D6'
+  });
+  var intro = document.getElementById('container');
+  intro.style.marginBottom = - intro.offsetHeight / 5 + 'px';
+}, false);
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>

@@ -213,7 +213,7 @@ section p{
 .one,.two.three{
   display: inline-block;
 }
-.ome{
+.one{
   display: inline;
   float:right;
 }
@@ -346,9 +346,20 @@ section p{
 
 footer{
   position: relative;
-  margin-left: -160px;
-width:131.5%;
+  margin-left: -174px;
+width:130.1%;
 background-color: rgba(52, 73, 94,1.0);
 margin-bottom: -170px;
 color:white;
+}
+.partone{
+  margin-left:200px;
+  margin-top:-200px;
+}
+.parttwo{
+  margin-left:-400px;
+}
+.partthree{
+  margin-left:200px;
+  margin-top:-200px;
 }

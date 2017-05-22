@@ -88,7 +88,7 @@ setTimeout(function(){
 },2200)
 $(document).ready(function() {
 	$(window).scroll(function() {
-  	if($(document).scrollTop() > 420) {
+  	if($(document).scrollTop() > 620) {
     	$('.about-heading').addClass('is-showing');
     }
     
@@ -96,7 +96,7 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
 	$(window).scroll(function() {
-  	if($(document).scrollTop() > 760) {
+  	if($(document).scrollTop() > 960) {
     	$('.about-text').addClass('is-showing');
     }
     

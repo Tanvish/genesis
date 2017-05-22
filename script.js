@@ -86,5 +86,115 @@ setTimeout(function(){
     $('.main-buttons').addClass('is-showing')
   })
 },2200)
+$(document).ready(function() {
+	$(window).scroll(function() {
+  	if($(document).scrollTop() > 420) {
+    	$('.about-heading').addClass('is-showing');
+    }
+    
+  });
+});
+$(document).ready(function() {
+	$(window).scroll(function() {
+  	if($(document).scrollTop() > 760) {
+    	$('.about-text').addClass('is-showing');
+    }
+    
+  });
+});
+$(document).ready(function() {
+	$(window).scroll(function() {
+  	if($(document).scrollTop() > 1260) {
+    	$('.intra-heading').addClass('is-showing');
+    }
+    
+  });
+});
+
+$(document).ready(function() {
+	$(window).scroll(function() {
+  	if($(document).scrollTop() > 1360) {
+    	$('#func2').addClass('is-showing');
+    }
+    
+  });
+});
+$(document).ready(function() {
+	$(window).scroll(function() {
+  	if($(document).scrollTop() > 1680) {
+    	$('#funcs1').addClass('is-showing');
+    }
+    
+  });
+});
+$(document).ready(function() {
+	$(window).scroll(function() {
+  	if($(document).scrollTop() > 1760) {
+    	$('#funcs2').addClass('is-showing');
+    }
+    
+  });
+});
+$(document).ready(function() {
+	$(window).scroll(function() {
+  	if($(document).scrollTop() > 2160) {
+    	$('#timer-header').addClass('is-showing');
+    }
+    
+  });
+});
+$(document).ready(function() {
+	$(window).scroll(function() {
+  	if($(document).scrollTop() > 2360) {
+    	$('#timer').addClass('is-showing');
+    }
+    
+  });
+});
+
+$(document).ready(function() {
+	$(window).scroll(function() {
+  	if($(document).scrollTop() > 2760) {
+    	$('#team-head').addClass('is-showing');
+    }
+    
+  });
+});
+$(document).ready(function() {
+	$(window).scroll(function() {
+  	if($(document).scrollTop() > 2960) {
+    	$('#team-text').addClass('is-showing');
+    }
+    
+  });
+});
+
+$(document).ready(function() {
+	$(window).scroll(function() {
+  	if($(document).scrollTop() > 3460) {
+    	$('#last').addClass('is-showing');
+    }
+    
+  });
+});
+
+$(document).ready(function() {
+	$(window).scroll(function() {
+  	if($(document).scrollTop() > 3760) {
+    	$('#last-icons').addClass('is-showing');
+    }
+    
+  });
+});
+
+
+
+
+
+
+
+
+
+
 
 

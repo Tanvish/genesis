@@ -68,3 +68,23 @@ function makeTimer() {
 	}
 
 	setInterval(function() { makeTimer(); }, 1000);
+	$(document).ready(function(){
+  $('.main').addClass('is-showing')
+})
+setTimeout(function(){
+$(document).ready(function(){
+  $('.main_head').addClass('is-showing')
+})
+},1400)
+setTimeout(function(){
+$(document).ready(function(){
+  $('.main_text').addClass('is-showing')
+})
+},1800)
+setTimeout(function(){
+  $(document).ready(function(){
+    $('.main-buttons').addClass('is-showing')
+  })
+},2200)
+
+

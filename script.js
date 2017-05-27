@@ -1,3 +1,13 @@
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 2000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("website").style.display = "block";
+}
 $(document).ready(function() {
 	$(window).scroll(function() {
   	if($(document).scrollTop() > 220) {
@@ -67,7 +77,7 @@ function makeTimer() {
 
 	}
 
-	setInterval(function() { makeTimer(); }, 1000);
+	setInterval(function() { makeTimer(); }, 3600);
 	$(document).ready(function(){
   $('.main').addClass('is-showing')
 })
@@ -75,17 +85,22 @@ setTimeout(function(){
 $(document).ready(function(){
   $('.main_head').addClass('is-showing')
 })
-},1400)
+},3800)
 setTimeout(function(){
 $(document).ready(function(){
   $('.main_text').addClass('is-showing')
 })
-},1800)
+},4200)
 setTimeout(function(){
   $(document).ready(function(){
     $('.main-buttons').addClass('is-showing')
   })
-},2200)
+},4800)
+setTimeout(function(){
+  $(document).ready(function(){
+    $('.main-buttons').addClass('is-showing')
+  })
+},4800)
 $(document).ready(function() {
 	$(window).scroll(function() {
   	if($(document).scrollTop() > 620) {
@@ -96,7 +111,7 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
 	$(window).scroll(function() {
-  	if($(document).scrollTop() > 960) {
+  	if($(document).scrollTop() > 760) {
     	$('.about-text').addClass('is-showing');
     }
     
@@ -186,7 +201,6 @@ $(document).ready(function() {
     
   });
 });
-
 
 
 

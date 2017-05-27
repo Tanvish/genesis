@@ -212,7 +212,7 @@ padding-bottom: 170px;
 
 #about-heading{
 	font-size:3pc;
-    padding-bottom: 4pc;
+    padding-bottom: 2.5pc;
     opacity: 0;
     transform: translateX(-60px);
     text-overflow: hidden;

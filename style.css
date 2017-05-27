@@ -82,9 +82,9 @@ padding-top: 130px;
     color: white;
     font-family: 'Raleway', arial;
     z-index:1;
-    opacity: 0;
+    opacity: 1;
     transition: 1.5s;
-    transform: translateY(-100px);
+    transform: translateY(0px);
 }
 #main.is-showing{
   opacity:1;
@@ -94,8 +94,7 @@ padding-top: 130px;
 #main_head{
 	margin-top: 140px;
 	font-size: 10pc;
-    margin-left: 5%;
-	font-family: 'Raleway', verdana;
+ 	font-family: 'Raleway', verdana;
 	opacity: 0;
 	padding-bottom: 20px;
 	transform: translateX(-20px);
@@ -120,8 +119,7 @@ padding-top: 130px;
 	opacity: 0;
 	margin-top: -5%;
 	font-size: 1.75pc;
-    margin-left: 6.5%;
-	font-family: 'Raleway', verdana;
+    font-family: 'Raleway', verdana;
     padding-bottom: 30px;
     transform: translateX(-10px);
     transition: .5s;
@@ -149,12 +147,10 @@ padding-top: 130px;
 }
 .btn-left{
 	border:2px solid white;
-	margin-left:7%;
-}
+	}
 .btn-right{
 	border:2px solid white;
-	margin-left: 1%;
-}
+	}
 #main .btn-right:hover{
 	background:white;
 	color:black;
@@ -219,7 +215,7 @@ padding-bottom: 170px;
     opacity: 0;
     transform: translateX(-60px);
     text-overflow: hidden;
-    transition: .5s;
+    transition: 1.5s;
 }
 #about-heading.is-showing{
 	opacity: 1;
@@ -332,7 +328,7 @@ padding-bottom: 170px;
   	float: right;
   	margin-top: -280px;
     opacity: 0;
-    transform: translateY(-70px);
+    transform: translateY(70px);
     transition: 1s;
   }
   #funcs2.is-showing{
@@ -537,8 +533,8 @@ span {
 }
 footer{
 	position: relative;
-	left:-8px;
-	width:101.21%;
+	left:-12px;
+	width:101.51%;
 	bottom: -10px;
 	background-color: #34495E;
 	padding-top:20px;
@@ -550,4 +546,55 @@ footer{
 footer img{
 	position: relative;
 	margin-top: 10px;
+}
+
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 20px;
+  height: 60px;
+  margin: -85px 0 0 -35px;
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-1px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-1px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+#website {
+  display: none;
+  text-align: center;
 }

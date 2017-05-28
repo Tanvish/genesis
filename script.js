@@ -1,7 +1,7 @@
 var myVar;
 
 function myFunction() {
-    myVar = setTimeout(showPage, 3000);
+    myVar = setTimeout(showPage, 4000);
 }
 
 function showPage() {
@@ -77,7 +77,7 @@ function makeTimer() {
 
 	}
 
-	setInterval(function() { makeTimer(); }, 3600);
+	setInterval(function() { makeTimer(); }, 5600);
 	$(document).ready(function(){
   $('.main').addClass('is-showing')
 })
@@ -85,22 +85,22 @@ setTimeout(function(){
 $(document).ready(function(){
   $('.main_head').addClass('is-showing')
 })
-},3800)
+},5800)
 setTimeout(function(){
 $(document).ready(function(){
   $('.main_text').addClass('is-showing')
 })
-},4200)
+},6200)
 setTimeout(function(){
   $(document).ready(function(){
     $('.main-buttons').addClass('is-showing')
   })
-},4800)
+},6800)
 setTimeout(function(){
   $(document).ready(function(){
     $('.main-buttons').addClass('is-showing')
   })
-},4800)
+},6800)
 $(document).ready(function() {
 	$(window).scroll(function() {
   	if($(document).scrollTop() > 620) {

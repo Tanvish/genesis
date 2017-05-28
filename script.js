@@ -77,7 +77,7 @@ function makeTimer() {
 
 	}
 
-	setInterval(function() { makeTimer(); }, 5600);
+	setInterval(function() { makeTimer(); }, 1000);
 	$(document).ready(function(){
   $('.main').addClass('is-showing')
 })

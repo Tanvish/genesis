@@ -1,13 +1,6 @@
 var myVar;
 
-function myFunction() {
-    myVar = setTimeout(showPage, 4000);
-}
 
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("website").style.display = "block";
-}
 $(document).ready(function() {
 	$(window).scroll(function() {
   	if($(document).scrollTop() > 220) {

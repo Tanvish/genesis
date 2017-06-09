@@ -148,10 +148,10 @@ padding-top: 130px;
 	transform: translateY(0px);
 }
 .btn-left{
-	border:2px solid white;
+	border:1px solid white;
 	}
 .btn-right{
-	border:2px solid white;
+	border:1px solid white;
 	}
 #main .btn-right:hover{
 	background:white;

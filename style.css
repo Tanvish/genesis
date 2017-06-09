@@ -68,7 +68,8 @@ label {
 	font-family: 'Raleway',verdana;
 	font-size: 1.5pc;
 }
-#main{
+#main{  
+	text-align:center;
 	position: relative;
 	top:-110px;
 	left:-19px;

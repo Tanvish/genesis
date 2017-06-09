@@ -121,7 +121,7 @@ padding-top: 130px;
 	opacity: 0;
 	margin-top: -5%;
 	font-size: 1.75pc;
-    font-family: 'Raleway', verdana;
+    font-family: 'Open Sans', verdana;
     padding-bottom: 30px;
     transform: translateX(-10px);
     transition: .5s;
@@ -139,6 +139,7 @@ padding-top: 130px;
 	padding:15px;
 }
 #main-buttons{
+	font-family:'Open Sans',verdana;
 	opacity: 0;
 	transform: translateY(30px);
 	transition: .5s;

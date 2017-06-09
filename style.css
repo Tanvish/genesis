@@ -108,7 +108,7 @@ padding-top: 130px;
 #main::after{
 	content: "";
 	position: absolute;
-	width:100%;
+	width:50%;
 	height:100%;
 	top:0;left:0;
 	background: rgba(52, 73, 94,0.1);

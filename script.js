@@ -78,22 +78,22 @@ setTimeout(function(){
 $(document).ready(function(){
   $('.main_head').addClass('is-showing')
 })
-},5800)
+},2800)
 setTimeout(function(){
 $(document).ready(function(){
   $('.main_text').addClass('is-showing')
 })
-},6200)
+},3200)
 setTimeout(function(){
   $(document).ready(function(){
     $('.main-buttons').addClass('is-showing')
   })
-},6800)
+},3800)
 setTimeout(function(){
   $(document).ready(function(){
     $('.main-buttons').addClass('is-showing')
   })
-},6800)
+},3800)
 $(document).ready(function() {
 	$(window).scroll(function() {
   	if($(document).scrollTop() > 620) {

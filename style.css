@@ -120,7 +120,7 @@ padding-top: 130px;
 #main_text{
 	opacity: 0;
 	margin-top: -5%;
-	font-size: 1.75pc;
+	font-size: 1.25pc;
 	font-weight:100;
     font-family: 'Montserrat', verdana;
     padding-bottom: 30px;
@@ -233,7 +233,7 @@ padding-bottom: 170px;
 	width:30%;
 	line-height: auto;
 	font-size:1pc;
-	font-family: 'Open sans', verdana;
+	font-family: 'Montserrat', verdana;
 }
 #about-text.is-showing{
 	opacity: 1;
@@ -435,7 +435,7 @@ span {
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: white;
-	font-family: 'Raleway',verdana;
+	font-family: 'Montserrat',verdana;
     text-align: center;
     z-index: 1;
 }
@@ -476,7 +476,7 @@ span {
 }
 #contact{
 	position: relative;
-	font-family: 'Raleway',verdana;
+	font-family: 'Montserrat',verdana;
 	padding: 100px;
 	padding-bottom: 200px;
 }
@@ -552,6 +552,8 @@ footer img{
 	position: relative;
 	margin-top: 10px;
 }
+h1{
+	font-family: 'Raleway', verdana;
 
 /* Center the loader */
 #loader {

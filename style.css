@@ -95,7 +95,7 @@ padding-top: 130px;
 #main_head{
 	margin-top: 140px;
 	font-size: 10pc;
- 	font-family: 'Raleway', verdana;
+ 	font-family: 'Raleway:700', verdana;
 	opacity: 0;
 	padding-bottom: 20px;
 	transform: translateX(-20px);
@@ -122,7 +122,7 @@ padding-top: 130px;
 	margin-top: -5%;
 	font-size: 1.25pc;
 	font-weight:100;
-    font-family: 'Montserrat', verdana;
+    font-family: 'Raleway:100', verdana;
     padding-bottom: 30px;
     transform: translateX(-10px);
     transition: .5s;
@@ -140,7 +140,7 @@ padding-top: 130px;
 	padding:15px;
 }
 #main-buttons{
-	font-family:'Montserrat',verdana;
+	font-family:'Raleway:100',verdana;
 	opacity: 0;
 	transform: translateY(30px);
 	transition: .5s;
@@ -209,7 +209,7 @@ padding-top: 130px;
 #about{
 position: relative;
 padding-top:70px;
-font-family: 'Raleway',verdana;
+font-family: 'Raleway:500',verdana;
 width:100%;
 padding-bottom: 170px;
 }
@@ -233,7 +233,7 @@ padding-bottom: 170px;
 	width:30%;
 	line-height: auto;
 	font-size:1pc;
-	font-family: 'Montserrat', verdana;
+	font-family: 'Raleway:100', verdana;
 }
 #about-text.is-showing{
 	opacity: 1;
@@ -435,7 +435,7 @@ span {
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: white;
-	font-family: 'Montserrat',verdana;
+	font-family: 'Raleway:100',verdana;
     text-align: center;
     z-index: 1;
 }
@@ -476,7 +476,7 @@ span {
 }
 #contact{
 	position: relative;
-	font-family: 'Montserrat',verdana;
+	font-family: 'Raleway:100',verdana;
 	padding: 100px;
 	padding-bottom: 200px;
 }
@@ -553,8 +553,11 @@ footer img{
 	margin-top: 10px;
 }
 h1{
-	font-family: 'Raleway', verdana;
-
+	font-family: 'Raleway:500', verdana;
+}
+p{
+	font-family:'Raleway:100', verdana;
+}
 /* Center the loader */
 #loader {
   position: absolute;

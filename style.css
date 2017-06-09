@@ -112,7 +112,7 @@ padding-top: 130px;
 	height:100%;
 	top:0;left:0;
 	background: rgba(52, 73, 94,0.1);
-	z-index:-1;
+	z-index:1;
 }
 
 
